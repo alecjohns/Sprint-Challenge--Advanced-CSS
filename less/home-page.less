@@ -2,6 +2,14 @@
 
 .home {
 
+  .top-content{
+    background-color: @wild-sand;
+    width: 100%;
+    .top-nav a{
+        text-decoration: none;
+    }
+  }
+
   .intro {
 
     h2 {
@@ -58,6 +66,11 @@
       }
 
       .btn {
+       .buttonStyle();
+      }
+
+      .btn :hover{
+        .hoverBtn();
       }
     }
 
